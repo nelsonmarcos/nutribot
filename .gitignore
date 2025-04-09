@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+*.sqlite3
+*.log
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados sensíveis / temporários
+*.csv
+!/data/*.csv  # exceto os CSVs da pasta data
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.tar
+*.img
+*.gz
+
+# Docker volumes
+pg_data/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
